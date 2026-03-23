@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Constructura Morgon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="img/principal/logo.jpg" alt="Constructura Morgon" class="logo-img">
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="empresa.html">La Empresa</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+
+            <input type="search" placeholder="Buscar Proyectos..." class="search-bar">
+            <button class="search-btn">
+                <img src="iconos/lupa.png" alt="Buscar" class="search-icon-img">
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- Sección Principal, es la información que destaca en la página de inicio -->
+
+    <main class="main-index">
+
+        <!-- Sección Hero, es la sección que destaca en la página de inicio, banner a pantalla completa con el mensaje principal -->
+
+        <section class="hero-full">
+            <div class="hero-content">
+
+                <h2>Construimos tu Futuro Cimiento a Cimiento</h2>
+                <p>Especialistas en infraestructura, proyectos comerciales y residenciales.
+                    Calidad, seguridad y copromiso en cada obra que realizamos. </p>
+
+                    <a href="servicios.html" class="cta-button">Conoce Nuestros Servicios</a>
+
+            </div>
+        </section>
+
+        <section class="carousels-section">
+            <div class="page-container">
+
+                <div class="">
+                    <h2>Nuestros Proyectos Destacados</h2>
+                    <p>Explora nuestras obras crecientes y el equipo que las hace posibles.</p>
+                </div>
+
+                <div class="carousel-wrapper">
+                    <!-- Primer contenedor de imágenes -->
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="track1">
+
+                            <img src="img/banner1/banner1.1.jpg" alt="Banner 1" class="carousel-slide active">
+                            <img src="img/banner1/banner1.2.jpg" alt="Banner 2" class="carousel-slide">
+                            <img src="img/banner1/banner1.3.jpg" alt="Banner 3" class="carousel-slide">
+                            <img src="img/banner1/banner1.4.jpg" alt="Banner 4" class="carousel-slide">
+                            <img src="img/banner1/banner1.5.jpg" alt="Banner 5" class="carousel-slide">
+
+                        </div>
+
+                        <!--  Botones de control Anterior/Posterior  -->
+                        <button class="carousel-btn prev" onclick="moveSlide('track1', 'dots1', -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide('track1', 'dots1', 1)">&#10095;</button>
+
+                        <div class="carousel-indicators" id="dots1">
+                            <span class="dot active" onclick="jumpToSlide('track1', 'dots1', 0)"></span>
+                            <span class="dot" onclick="jumpToSlide('track1', 'dots1', 1)"></span>
+                            <span class="dot" onclick="jumpToSlide('track1', 'dots1', 2)"></span>
+                            <span class="dot" onclick="jumpToSlide('track1', 'dots1', 3)"></span>
+                            <span class="dot" onclick="jumpToSlide('track1', 'dots1', 4)"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="track2">
+
+                            <img src="img/banner2/banner2.1.jpg" alt="Banner 1" class="carousel-slide active">
+                            <img src="img/banner2/banner2.2.jpg" alt="Banner 2" class="carousel-slide">
+                            <img src="img/banner2/banner2.3.jpg" alt="Banner 3" class="carousel-slide">
+                            <img src="img/banner2/banner2.4.jpg" alt="Banner 4" class="carousel-slide">
+                            <img src="img/banner2/banner2.5.jpg" alt="Banner 5" class="carousel-slide">
+
+                        </div>
+
+                        <!--  Botones de control Anterior/Posterior  -->
+                        <button class="carousel-btn prev" onclick="moveSlide('track2', 'dots2', -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide('track2', 'dots2', 1)">&#10095;</button>
+
+                        <div class="carousel-indicators" id="dots2">
+                            <span class="dot active" onclick="jumpToSlide('track2', 'dots2', 0)"></span>
+                            <span class="dot" onclick="jumpToSlide('track2', 'dots2', 1)"></span>
+                            <span class="dot" onclick="jumpToSlide('track2', 'dots2', 2)"></span>
+                            <span class="dot" onclick="jumpToSlide('track2', 'dots2', 3)"></span>
+                            <span class="dot" onclick="jumpToSlide('track2', 'dots2', 4)"></span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+<!--  Pie de página donde mostramos enlaces, redes sociales e información de contacto  -->
+
+    <footer class="footer">
+
+        <div class=" footer-container">
+            <!-- Columna del logo y redes sociales  -->
+            <div class="footer-col logo-col">
+                <img src="img/principal/logo.jpg" class="footer-logo-img" alt="Constructura Morgon">
+                <div class="social-links">
+                    <a href="#" class="social-icon"> <img src="iconos/facebook.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"> <img src="iconos/instagram.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"> <img src="iconos/email.png" alt="email"></a>
+                    <a href="#" class="social-icon"> <img src="iconos/whatsapp.png" alt="whatsapp"></a>
+                </div>
+            </div>
+            <!-- Columna de enlaces  -->
+            <div class="footer-col links-col">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="empresa.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Desarrollos</a></li>
+                    <li><a href="contacto.html">Contactáctanos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Contacto</h3>
+
+                <table class="contact-table">
+                    <tr>
+                        <td class="icon-cell"> <img src="iconos/telefono.png" class="contact-icon-img" alt="telefono"></td>
+                        <td>Telefono <br> <small>+52 55 1234 5678</small> </td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"> <img src="iconos/email.png" class="contact-icon-img" alt="email"></td>
+                        <td>Correo Electrónico <br> <small>info@constructuramorgon.com</small> </td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"> <img src="iconos/instagram.png" class="contact-icon-img" alt="instagram"></td>
+                        <td>Instagram <br> <small>@ConstructuraMorgon</small> </td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"> <img src="iconos/whatsapp.png" class="contact-icon-img" alt="whatsapp"></td>
+                        <td>WhatsApp <br> <small>+52 55 1234 5678</small> </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- Sección inferior del pie de página con derechos reservados y enlaces legales  -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Constructura Morgon. Todos los derechos reservados. | <a href="#">Aviso de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
