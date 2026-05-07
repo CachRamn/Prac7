@@ -31,6 +31,24 @@ function moveSlide(trackId, dotsId, direction) {
 
 }
 
+//Funcion para mover el carousel automáticamente con los puntos 
+
+function jumpToSlide(trackId, dotsId, index) {
+    const track = document.getElementById(trackId);
+    if (!track) return;
+
+    const slides = track.querySelectorAll('.carousel-slide');
+    const dotsContainer = document.getElementById(dotsId);
+    const dots = dotsContainer.querySelectorAll('.dot');
+
+    let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+    slides[activeIndex].classList.remove('active');
+    dots[activeIndex].classList.remove('active');
+
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+} 
+
     setInterval(() => {
         moveSlide('track1', 'dots1', 1);
         moveSlide('track2', 'dots2', 1); 
