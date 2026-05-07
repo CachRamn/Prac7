@@ -54,6 +54,133 @@ const serviciosExpress = [
         tiempo: "1-3 dias",
         precio: "Desde $7,000 MXN"
     },
+
+    {  
+        id: 7,
+        nombre: "Impermeabilizacion",
+        categoria: "Estructura",
+        imagen: "img/serviciosExpress/impermiabilizante.jpeg",
+        descripcion: "Aplicacion de membranas y recubrimientos impermeables para proteger tu construccion de filtraciones y humedad",
+        tiempo: "1-3 dias",
+        precio: "Desde $4,000 MXN"
+    },
+    {  
+        id: 8,
+        nombre: "Instalacion Hidraulica",
+        categoria: "Instalaciones",
+        imagen: "img/serviciosExpress/hidraulico.jpeg",
+        descripcion: "Instalacion y reparacion de tuberias, llaves y sistemas de agua potable para tu hogar o negocio",
+        tiempo: "1-3 dias",
+        precio: "Desde $4,500 MXN"
+    },
+    {  
+        id: 9,
+        nombre: "Construccion de muros",
+        categoria: "Estructura",
+        imagen: "img/serviciosExpress/muros.jpeg",
+        descripcion: "Levantamiento de muros de tabique, block o tablaroca con acabado listo para pintar o recubrir",
+        tiempo: "3-6 dias",
+        precio: "Desde $6,000 MXN"
+    },
+    {  
+        id: 10,
+        nombre: "Colocacion de pisos",
+        categoria: "Acabados",
+        imagen: "img/serviciosExpress/colado.jpeg",
+        descripcion: "Instalacion de pisos de ceramica, porcelanato, madera o vinilico con nivelacion y sellado profesional",
+        tiempo: "2-5 dias",
+        precio: "Desde $5,500 MXN"
+    },
+    {  
+        id: 11,
+        nombre: "Instalacion de cocinas integrales",
+        categoria: "Acabados",
+        imagen: "img/serviciosExpress/cocina.jpeg",
+        descripcion: "Diseño, suministro e instalacion de cocinas integrales a medida con materiales de primera calidad",
+        tiempo: "4-8 dias",
+        precio: "Desde $15,000 MXN"
+    },
+    {  
+        id: 12,
+        nombre: "Demolicion y retiro de escombro",
+        categoria: "Estructura",
+        imagen: "img/serviciosExpress/demolición.jpeg",
+        descripcion: "Demolicion controlada de muros, pisos o techos con retiro de escombro incluido y limpieza del area",
+        tiempo: "1-2 dias",
+        precio: "Desde $3,500 MXN"
+    },
+    {  
+        id: 13,
+        nombre: "Colocacion de azulejos",
+        categoria: "Acabados",
+        imagen: "img/serviciosExpress/azulejo.jpeg",
+        descripcion: "Instalacion de azulejos en banos, cocinas y fachadas con nivelado perfecto y rejunteado de alta durabilidad",
+        tiempo: "2-4 dias",
+        precio: "Desde $4,000 MXN"
+    },
+    {  
+        id: 14,
+        nombre: "Instalacion de cancel de baño",
+        categoria: "Acabados",
+        imagen: "img/serviciosExpress/cancel.jpeg",
+        descripcion: "Suministro e instalacion de canceles de vidrio templado para regadera o tina, con herrajes de aluminio o acero inoxidable",
+        tiempo: "1-2 dias",
+        precio: "Desde $6,500 MXN"
+    },
+    {  
+        id: 15,
+        nombre: "Instalacion de sistemas de aire acondicionado",
+        categoria: "Instalaciones",
+        imagen: "img/serviciosExpress/aire.jpeg",
+        descripcion: "Instalacion, mantenimiento y recarga de sistemas de aire acondicionado tipo split o central para cualquier espacio",
+        tiempo: "1-2 dias",
+        precio: "Desde $5,000 MXN"
+    },
+    {  
+        id: 16,
+        nombre: "Herreria y soldadura",
+        categoria: "Estructura",
+        imagen: "img/serviciosExpress/herreria.jpeg",
+        descripcion: "Fabricacion e instalacion de puertas, rejas, escaleras y barandales de herreria con acabado galvanizado o pintado",
+        tiempo: "3-7 dias",
+        precio: "Desde $7,000 MXN"
+    },
+    {  
+        id: 17,
+        nombre: "Diseno de fachadas",
+        categoria: "Arquitectura",
+        imagen: "img/serviciosExpress/fachada.jpeg",
+        descripcion: "Renovacion y diseño arquitectonico de fachadas con recubrimientos, iluminacion y elementos decorativos modernos",
+        tiempo: "5-10 dias",
+        precio: "Desde $12,000 MXN"
+    },
+    {  
+        id: 18,
+        nombre: "Instalacion de paneles solares",
+        categoria: "Instalaciones",
+        imagen: "img/serviciosExpress/paneles.jpeg",
+        descripcion: "Suministro e instalacion de sistemas fotovoltaicos para reducir el consumo electrico de tu hogar o negocio",
+        tiempo: "2-4 dias",
+        precio: "Desde $20,000 MXN"
+    },
+    {  
+        id: 19,
+        nombre: "Carpinteria y muebles a medida",
+        categoria: "Acabados",
+        imagen: "img/serviciosExpress/carpinteria.jpeg",
+        descripcion: "Fabricacion e instalacion de closets, libreros, escritorios y muebles a medida en madera, MDF o melamina",
+        tiempo: "5-10 dias",
+        precio: "Desde $9,000 MXN"
+    },
+    {  
+        id: 20,
+        nombre: "Levantamiento topografico",
+        categoria: "Arquitectura",
+        imagen: "img/serviciosExpress/topografia.jpeg",
+        descripcion: "Medicion y representacion precisa del terreno mediante instrumentos topograficos para planificacion de obra",
+        tiempo: "1-2 dias",
+        precio: "Desde $3,500 MXN"
+    },
 ];
 
 
